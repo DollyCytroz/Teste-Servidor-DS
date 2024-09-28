@@ -1,0 +1,19 @@
+[
+    {
+        "id_funcionario": "1", 
+        "cpf": "04725888001",
+        "data_entrada_funcionario": "2015-09-02", 
+        "cargo_funcionairo": "Limpeza", 
+        "salario_funcionario": 1350, 
+        "nome_funcionario": "Eduardo Freitas da Silva"
+    }, 
+
+    {
+        "id_funcionario": "2", 
+        "cpf": "93275742060",
+        "data_entrada_funcionario": "2017-09-20", 
+        "cargo_funcionairo": "Gerente de Marketing", 
+        "salario_funcionario": 17583, 
+        "nome_funcionario": "Rogerio Santos de Paus"
+    }
+]

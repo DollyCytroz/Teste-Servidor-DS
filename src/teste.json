@@ -1,0 +1,15 @@
+[
+    {
+        "id": "1", 
+        "nome": "Jéssica", 
+        "linha_aerea": "LATAM", 
+        "Destino": "Inferno"
+    }, 
+
+    {
+        "id": "2", 
+        "nome": "Bruno", 
+        "linha_aerea": "GOL", 
+        "Destino": "Paraiba"
+    }
+]
