@@ -1,20 +1,22 @@
-import http from 'http';
-
-const PORT = 3300;
-
-const rotas = {
-    '/': 'ROTA PRINCIPAL',
-    '/teste': 'ROTA DE TESTE',
-    '/teste2': 'AAAAAAAAA'
-}
-const server = http
+const express = require('express');
 
 
-server.createServer((req,res) => {
-    res.writeHead(200, {'Content-Type': 'text/plain'}),
-    res.end(rotas[req.url])
-})
+const app = express();
 
-server.listen(PORT, ()=> {
-    console.log('SERVIDOR ESTÁ ONLINE')
-})
+
+app.get("/", function (req, res) {
+  res.send("Hello World");
+});
+
+app.get("/teste", function (req, res) {
+  res.send("Hello Teste");
+});
+
+app.get("/login/:email/:senha", function (req, res) {
+    res.send(req.params.email);
+  });
+
+
+app.listen(3031, function () {
+  console.log("Server is running on port 3031");
+});
