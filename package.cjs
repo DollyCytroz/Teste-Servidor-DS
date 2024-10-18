@@ -10,7 +10,7 @@
   "author": "Kauê Mendes",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1",
+    "express": "4.21.1",
     "http": "^0.0.1-security",
     "node": "^20.18.0",
     "nodemon": "^3.1.7"
